@@ -103,7 +103,7 @@ public class TripAdvisorPage extends TestBase{
 		catch(Exception e)
 		{
 		driver.get(tripadvisorurl);
-		Thread.sleep(10000);	
+		Thread.sleep(5000);	
 		SearchItem.click();
 		Thread.sleep(5000);
 		mainSearch.click();
@@ -117,16 +117,15 @@ public class TripAdvisorPage extends TestBase{
 	public void WriteAReview() throws InterruptedException, AWTException
 	{
 		driver.get(tripadvisorurl);	
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		try{
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			SearchItemNew.click();
 			SearchItemNew.sendKeys("Club Mahindra");
 			Thread.sleep(2000);
 			firstSearchItem.click();
 			Thread.sleep(5000);
 			writeReview.click();
-			Thread.sleep(5000);
+			Thread.sleep(10000);
 			String currentWindow = driver.getWindowHandle();
 			System.out.println("currentWindow" + currentWindow);
 			Set<String> allWindow = driver.getWindowHandles();
@@ -163,7 +162,7 @@ public class TripAdvisorPage extends TestBase{
 		}
 		catch(Exception e)
 		{
-			
+		Thread.sleep(5000);	
 		SearchItem.click();
 		mainSearch.click();
 		Thread.sleep(1000);
@@ -171,7 +170,7 @@ public class TripAdvisorPage extends TestBase{
 		firstSearchRowItem.click();
 		Thread.sleep(5000);
 		writeReview.click();
-		Thread.sleep(3000);
+		Thread.sleep(10000);
 		String currentWindow = driver.getWindowHandle();
 		System.out.println("currentWindow" + currentWindow);
 		Set<String> allWindow = driver.getWindowHandles();
