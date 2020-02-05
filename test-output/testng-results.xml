@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="107286" started-at="2020-02-05T12:23:27Z" finished-at="2020-02-05T12:25:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="107286" started-at="2020-02-05T12:23:27Z" finished-at="2020-02-05T12:25:15Z">
+      <class name="com.crm.qa.testcases.TripAdvisorTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.TripAdvisorTest@6767c1fc]" name="setup" is-config="true" duration-ms="4895" started-at="2020-02-05T17:53:27Z" finished-at="2020-02-05T17:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchandSelectFirstOption()[pri:0, instance:com.crm.qa.testcases.TripAdvisorTest@6767c1fc]" name="searchandSelectFirstOption" duration-ms="31035" started-at="2020-02-05T17:53:32Z" finished-at="2020-02-05T17:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchandSelectFirstOption -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TripAdvisorTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="2103" started-at="2020-02-05T17:54:03Z" finished-at="2020-02-05T17:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.TripAdvisorTest@6767c1fc]" name="setup" is-config="true" duration-ms="3740" started-at="2020-02-05T17:54:05Z" finished-at="2020-02-05T17:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="writeReview()[pri:1, instance:com.crm.qa.testcases.TripAdvisorTest@6767c1fc]" name="writeReview" duration-ms="65417" started-at="2020-02-05T17:54:09Z" finished-at="2020-02-05T17:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReview -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TripAdvisorTest@6767c1fc]" name="tearDown" is-config="true" duration-ms="71" started-at="2020-02-05T17:55:14Z" finished-at="2020-02-05T17:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownAll()[pri:0, instance:com.crm.qa.testcases.TripAdvisorTest@6767c1fc]" name="tearDownAll" is-config="true" duration-ms="1081" started-at="2020-02-05T17:55:15Z" finished-at="2020-02-05T17:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAll -->
+      </class> <!-- com.crm.qa.testcases.TripAdvisorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
