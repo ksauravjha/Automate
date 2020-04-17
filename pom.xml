@@ -49,7 +49,7 @@
         <version>RELEASE</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
+            <suiteXmlFile>comparePrice.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
