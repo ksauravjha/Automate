@@ -9,11 +9,7 @@
 
   <name>Automate</name>
   <url>http://maven.apache.org</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-
+  
   <plugins>
   <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -25,7 +21,12 @@
           </suiteXmlFiles>
         </configuration>
       </plugin>
-    
+ </plugins>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
   <dependencies>
   
   <dependency>
@@ -53,8 +54,5 @@
     <version>2.4</version>
 </dependency>
      </dependencies> 
-  
-  
-    
-    </plugins>
+
 </project>
